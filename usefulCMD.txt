@@ -2,3 +2,5 @@
     - pip freeze > requirements.txt
     - pip install -r requirements.txt
 
+2. from https://pypi.org/project/virtualenvwrapper-win/
+    - virtualenvwrapper for windows command prompt(not Powershell)
