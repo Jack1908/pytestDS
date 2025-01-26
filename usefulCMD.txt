@@ -1,0 +1,4 @@
+1.  from https://www.kevinbai.com/articles/144.html
+    - pip freeze > requirements.txt
+    - pip install -r requirements.txt
+
