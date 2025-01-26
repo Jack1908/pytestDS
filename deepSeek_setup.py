@@ -28,7 +28,7 @@ class CertPinningTransport(httpx.HTTPTransport):
         return connection
 
 client = OpenAI(
-    api_key="sk-002db16d9bef4d91ad8b214abc7cc916", 
+    api_key="api_key", 
     base_url="https://api.deepseek.com/v1",
     http_client=httpx.Client(transport=CertPinningTransport())
 )
